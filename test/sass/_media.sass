@@ -1,0 +1,138 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width:768px)
+	html, body
+		font-size: 14px
+		h1
+			margin: 0
+	.d_none_for_md
+		display: none
+	.navbar-nav
+		li
+			padding-left: 15px
+			border-radius: 8px
+			background: -moz-linear-gradient(top, rgba(255,255,255,0.65) 0%, rgba(245,245,245,0.65) 1%, rgba(109,109,109,0.69) 14%, rgba(109,109,109,0.71) 21%, rgba(160,160,160,0.91) 89%, rgba(167,167,167,0) 99%, rgba(168,168,168,0) 100%) /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(255,255,255,0.65) 0%,rgba(245,245,245,0.65) 1%,rgba(109,109,109,0.69) 14%,rgba(109,109,109,0.71) 21%,rgba(160,160,160,0.91) 89%,rgba(167,167,167,0) 99%,rgba(168,168,168,0) 100%) /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba(255,255,255,0.65) 0%,rgba(245,245,245,0.65) 1%,rgba(109,109,109,0.69) 14%,rgba(109,109,109,0.71) 21%,rgba(160,160,160,0.91) 89%,rgba(167,167,167,0) 99%,rgba(168,168,168,0) 100%)
+	.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators
+		display: none
+	.carousel-caption
+		top: 15%
+	.brown_from
+		.justify-content-between
+			display: block
+			text-align: center
+			.info_txt_brown
+				padding: 30px 15px 0 15px
+			.button
+				float: none
+		.col-lg-2
+			padding: 15px 0
+	.excellent_for_mobile_devices
+		.content_for_mobile
+			padding-top: 15px
+			ul
+				margin-left: -160%
+	.gray_txt
+		max-width: 580px
+
+	.card
+		margin: 20px 0
+
+	.group_item_photo, .item_photo, .block_item_photo_text, .main_text
+		padding: 8px 0 0 0
+	.partners
+		background-image: none
+		background-color: #232323
+	footer
+		.col-lg-3
+			.caption_footer
+			&:nth-child(4)
+				text-align: center
+		.bottom_black_footer
+			text-align: center
+			.float-left
+				float: none!important
+			.float-right
+				float: none!important
+@media (min-width : 321px) and (max-width:480px)
+	html, body
+		font-size: 14px
+		h1
+			margin: 23px 0 0 0
+			font-size: 2rem
+	.carousel-caption
+		p
+			display: none
+		h2
+			display: none
+		.button
+			padding: 15px 35px
+			margin: 5px 0
+.wrap_for_poster
+	.container_poster
+		.poster_caption
+			margin-top: 0
+.excellent_for_mobile_devices
+	.content_for_mobile
+		ul
+			margin-left: 0
+			padding-left: 0
+.group_item_photo
+	.item_photo
+		&::after
+			top: 63%
+@media only screen and (max-width:320px)
+	html, body
+		font-size: 12px
+		h1
+			font-size: 1.8rem
+	.carousel-caption
+		p
+			display: none
+		h2
+			display: none
+	button
+		margin: 0
+		padding: 15px 30px
+.group_item_photo
+	.item_photo
+		&:hover::before
+			bottom: 9px
+		&::after
+			top: 60%
+		.block_item_photo_text
+			bottom: 9px
+.wrap_for_poster
+	.min-h-photo
+		min-height: 225px
+
+@media only screen and (min-width:992px) and (max-width:1200px)
+	/**/
+	.group_item_photo
+		.item_photo
+			&::after
+				top: 56%
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:1200px)
+
+
+
+
+	/**/
+
