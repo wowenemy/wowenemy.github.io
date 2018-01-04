@@ -107,7 +107,7 @@ $('.text_message').html("hello world")
 .parent()
 .width(150)
 .height(100)
-.css('background-color','blue')
+.css('background-color','green')
 
 
 
